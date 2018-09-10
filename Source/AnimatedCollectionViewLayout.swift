@@ -70,6 +70,10 @@ public class AnimatedCollectionViewLayout: UICollectionViewFlowLayout {
         
         return a
     }
+    
+    public override var flipsHorizontallyInOppositeLayoutDirection: Bool {
+        return true
+    }
 }
 
 /// A custom layout attributes that contains extra information.
